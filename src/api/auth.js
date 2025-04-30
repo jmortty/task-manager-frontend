@@ -1,7 +1,7 @@
 // src/api/auth.js
 import axios from 'axios';
 axios.get('/api/v1/projects', { withCredentials: true })
-const API_URL = 'http://localhost:5000/api/v1/auth';
+const API_URL = 'https://task-manager-backend-onja.onrender.com/api/v1/tasks';
 
 // Function to register a user
 export const register = async (username, email, password) => {

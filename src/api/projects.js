@@ -1,7 +1,7 @@
 // src/api/projects.js
 import axios from 'axios';
-
-const API_URL = 'http://localhost:5000/api/v1/projects'; // Adjust port if needed
+localhost
+const API_URL = 'https://task-manager-backend-onja.onrender.com/api/v1/tasks'; // Adjust port if needed
 
 // Function to get all projects for the logged-in user
 export const getProjects = async () => {

@@ -1,7 +1,7 @@
 // src/api/tasks.js
 import axios from 'axios';
 axios.get('/api/v1/projects', { withCredentials: true })
-const API_URL = 'http://localhost:5000/api/v1/tasks'; // Adjust port if needed
+const API_URL = 'https://task-manager-backend-onja.onrender.com/api/v1/tasks'; // Adjust port if needed
 
 // Function to get tasks, with optional filters
 export const getTasks = async (filters = {}) => {

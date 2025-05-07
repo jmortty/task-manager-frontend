@@ -6,8 +6,8 @@ import TaskCreatePage from './pages/TaskCreatePage';
 import TaskEditPage from './pages/TaskEditPage';
 import TaskDetailPage from './pages/TaskDetailPage';
 import ProjectListPage from './pages/ProjectListPage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
+//import LoginPage from './pages/LoginPage';
+//import RegisterPage from './pages/RegisterPage';
 import PrivateRoute from './components/ProtectedRoute';
 
 const App = () => {

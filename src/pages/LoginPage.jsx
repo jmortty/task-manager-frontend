@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useNavigate, Link } from 'react-router-dom';
 
-const LoginPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
-  const { login, loading, isAuthenticated } = useAuth();
-  const navigate = useNavigate();
+//const LoginPage = () => {
+  //const [email, setEmail] = useState('');
+  //const [password, setPassword] = useState('');
+  //const [error, setError] = useState('');
+  //const { login, loading, isAuthenticated } = useAuth();
+  //const navigate = useNavigate();
 
   // ✅ Safe redirect after login using useEffect
   useEffect(() => {
